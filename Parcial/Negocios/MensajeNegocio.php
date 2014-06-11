@@ -6,6 +6,12 @@ class MensajeNegocio {
         return $mensajedato->obtenerMensajes($mensajePadreId);
     }
     
+    public function obtenerMensajesPerfil($destinatarioUsuarioId){
+        $mensajedatos= new MensajeDatos();
+        return $mensajedatos->obtenerMensajesPerfil($destinatarioUsuarioId);
+    }
+    
+    
     public function guardarMensaje($mensaje){
         $mensajedato= new MensajeDatos();
         return $mensajedato->guardarMensaje($mensaje);
@@ -15,3 +21,4 @@ class MensajeNegocio {
     }
     
 }
+

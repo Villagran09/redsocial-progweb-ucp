@@ -1,0 +1,61 @@
+body{
+ margin:0px;
+ background-color: #5FB5EB;
+}
+.imagenPerfil{
+	width:50px;
+	height:50px; 
+	float:left;
+	margin-right:250px;
+}
+.mover{ /* con esto movia la imagen perfil de donde se escribe en el muro */
+	left:500px;
+	position:relative;
+}
+
+.respuesta .imagenPerfil{
+	width:30px;
+	height:30px; 
+        margin-left: 50px;
+        margin-right:200px;
+}
+.moverImagenRespuesta{ /* con esto movia la imagen perfil de donde se escribe en el muro */
+	left:50px;
+	position:absolute;
+}
+
+.resContenedor{
+	margin-left:500px;
+	margin-right:200px;
+}
+
+
+.muroContenedor{
+	margin-left:555px;
+	margin-right:200px;
+}
+.NombreDelUsuario{
+	font-weight:bold;
+	font-family:
+	Arial Rounded MT Bold;
+}
+.muroContenido{
+font-family:Arial Rounded MT Bold;
+}
+.muroFecha{
+	font-size:0.8em;
+	color:#ccc;
+}
+.respuesta .muroContenedor{
+	font-size:15px;
+        margin-left:590px;
+        
+}
+.fondoMuro{
+	background-color: #529ECC;
+	height:100%;
+}
+.fondoresp .muroContenido{
+	background-color: #81DAF5;
+
+}
